@@ -44,21 +44,10 @@ class DoublePendulum(VMobject):
         "show_trail": True,
         "trail_length": 30,
         "ratio": 1.2,
-        "scale": True,
     }
 
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
-
-        self.rod1_config["original_length"] = self.rod1_config["length"]
-        self.rod2_config["original_length"] = self.rod2_config["length"]
-
-        if self.scale:
-            scale_to_screen_height = FRAME_HEIGHT / \
-                (2 * self.ratio * (self.rod1_config["length"] + self.rod2_config["length"]))
-
-            self.rod1_config["length"] *= scale_to_screen_height
-            self.rod2_config["length"] *= scale_to_screen_height
 
         self.pendulum1 = Pendulum(
             origin=self.origin,
@@ -113,8 +102,8 @@ class DoublePendulum(VMobject):
     def update_pendulum(self, dt):
         m1 = self.bob1_config["mass"]
         m2 = self.bob2_config["mass"]
-        l1 = self.rod1_config["original_length"]
-        l2 = self.rod2_config["original_length"]
+        l1 = self.rod1_config["length"]
+        l2 = self.rod2_config["length"]
         cos = np.cos
         sin = np.sin
 
