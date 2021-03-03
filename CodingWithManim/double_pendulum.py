@@ -43,7 +43,6 @@ class DoublePendulum(VMobject):
         "speed": 1,
         "show_trail": True,
         "trail_length": 30,
-        "ratio": 1.2,
     }
 
     def __init__(self, **kwargs):
