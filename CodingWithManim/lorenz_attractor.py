@@ -36,9 +36,10 @@ class LorenzSystem(VMobject):
 
 class LorenzAttractor(Scene):
     def construct(self):
+        max_time = 40.0
         colors = [WHITE, BLUE_D, WHITE]
 
-        lorenz = LorenzSystem(max_time=40.0)
+        lorenz = LorenzSystem(max_time=max_time)
         lorenz.set_color_by_gradient(colors)
         lorenz.set_width(FRAME_WIDTH / 2.5)
 
@@ -50,7 +51,7 @@ class LorenzAttractor(Scene):
         self.play(
             ShowCreation(lorenz),
             frame.animate.increment_theta(-500 * DEGREES),
-            run_time=self.max_time,
+            run_time=max_time,
             rate_func=linear
         )
         self.play(
