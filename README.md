@@ -30,6 +30,6 @@ For tutorials, you may find a great number of examples from the official GitHub 
       Check out the [YouTube channel](https://www.youtube.com/c/TheoremofBeethoven) and [GitHub repo](https://github.com/Elteoremadebeethoven/AnimationsWithManim)
 3. ManimCommunity version: Check out the [tutorials](https://docs.manim.community/en/v0.3.0/tutorials.html) on their [website](https://www.manim.community/)
 
-**Note**: The library Manim is open source and licensed under MIT license. The source codes in this repository are only to be used for [WiredPhysics](https://www.youtube.com/c/WiredPhysics).
+**Note**: The library Manim is open source and licensed under MIT license. The codes in this repository are only to be used for [WiredPhysics](https://www.youtube.com/c/WiredPhysics).
 
 Copyright &copy; 2021 WiredPhysics
