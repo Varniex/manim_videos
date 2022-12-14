@@ -1,0 +1,6 @@
+# cache folders
+__pycache__/
+/.idea
+
+# Manimlib folder
+/manimlib
