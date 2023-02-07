@@ -1,6 +1,6 @@
 # Dragon Fractal
 
-from manim import *
+from manim_imports import *
 
 
 class DragonFractal(Scene):

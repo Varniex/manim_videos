@@ -9,7 +9,7 @@
 # For ex: pi = 3.141 So, the bezier curve starts from the 3rd arc and ends on 1st arc.
 # Next curve would start from 1st arc and goes to 4th arc
 
-from manim import *
+from manim_imports import *
 from mpmath import mp
 
 

@@ -1,0 +1,6 @@
+directories:
+  output: "media"
+  temporary_storage: "temp"
+
+style:
+  background_color: "#000000"

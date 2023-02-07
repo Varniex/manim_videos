@@ -1,6 +1,6 @@
 # Pendulum Chaos
 
-from manim import *
+from manim_imports import *
 
 
 class Pendulum(VMobject):

@@ -2,7 +2,7 @@
 # Inspired by TheCodingTrain:
 # Coding in the Cabana 3: Hilbert Curve: https://youtu.be/dSK-MW-zuAc
 
-from manim import *
+from manim_imports import *
 
 
 class HilbertCurve(VMobject):

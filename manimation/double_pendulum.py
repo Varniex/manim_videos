@@ -5,7 +5,7 @@
 # The Coding Train's Double Pendulum: https://youtu.be/uWzPe_S-RVE
 # myPhysicsLab Double Pendulum: https://www.myphysicslab.com/pendulum/double-pendulum-en.html
 
-from manim import *
+from manim_imports import *
 from manimation.pendulum_chaos import Pendulum
 
 

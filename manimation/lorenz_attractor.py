@@ -1,7 +1,7 @@
 # Lorenz Attractor
 # Wikipedia: https://en.wikipedia.org/wiki/Lorenz_system
 
-from manim import *
+from manim_imports import *
 from scipy.integrate import odeint
 
 

@@ -1,6 +1,6 @@
 # Double Pendulum Chaos
 
-from manim import *
+from manim_imports import *
 from manimation.double_pendulum import DoublePendulum
 
 

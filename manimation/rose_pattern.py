@@ -1,7 +1,7 @@
 # Rose Pattern
 # Wikipedia: https://en.wikipedia.org/wiki/Rose_(mathematics)
 
-from manim import *
+from manim_imports import *
 
 class RosePattern(VMobject):
     CONFIG = {

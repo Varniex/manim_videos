@@ -4,7 +4,7 @@
 #       Numberphile video: https://youtu.be/FGC5TdIiT9U
 #       Coding Train: Coding Challenge #110.1 -- https://youtu.be/DhFZfzOvNTU
 
-from manim import *
+from manim_imports import *
 
 
 class RecamanSequence(Scene):

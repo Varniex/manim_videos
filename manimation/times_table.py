@@ -1,7 +1,7 @@
 # Times Table
 # Mathologer's video: https://youtu.be/qhbuKbxJsk8
 
-from manim import *
+from manim_imports import *
 
 
 class TimesTable(VMobject):
