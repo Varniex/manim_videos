@@ -1,42 +1,29 @@
-# Manimation
+This repository contains the codes to generate the videos of my YouTube channel [Varniex](https://youtube.com/@Varniex)
 
-This repository contains the code used to generate videos on my [YouTube channel](https://www.youtube.com/@Varniex).
+The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue1brown.com/)) library [ManimGL](https://github.com/3b1b/manim)
 
-The videos are animated using the library [Manim](https://github.com/3b1b/manim) (based on Python) created by Grant Sandersone ([3Blue1Brown](https://www.3blue1brown.com))
+> **Note**: There are actually three versions of Manim:
+>
+> 1. Manim OpenGL ([ManimGL](https://github.com/3b1b/manim)): This version is maintained by 3Blue1Brown.
+> 2. [ManimCE](https://manim.community) ([GitHub repo](https://github.com/ManimCommunity/manim)): This version is community maintained. It is better documented for beginners especially. If you are a newbie, I'd suggest you to go with this.
+> 3. [Manim Cairo](https://github.com/3b1b/manim/tree/cairo-backend): This is **deprecated** now.
+>
+> _All of these versions are very different from each other. Please follow the guidelines of the respective version of Manim for its installation and tutorials._
 
-There are three main versions of Manim:
+### License
 
-1. [Manim OpenGL](https://github.com/3b1b/manim) (by 3b1b) is latest version but is under development. So, you may expect quite few changes overtime.
-2. [Manim Cairo](https://github.com/3b1b/manim/tree/cairo-backend) (by 3b1b) is the stable version.
-3. [ManimCommunity version](https://github.com/ManimCommunity/manim) is a community version created in 2020.
-
-_\*All these versions are very different from each other._
-
-> **In this repo, I am using [this](https://github.com/3b1b/manim/tree/a801aefceaffa083738c885f7e1f7762855851f7) commit of the OpenGL version.**
-
----
-
-## For installation
-
-For installation, please refer to the official repository.
-
-## Tutorials
-
-For tutorials, you may find a great number of examples from the official GitHub repositories. Some of them are:
-
-1. OpenGL: Grant provided [examples](https://3b1b.github.io/manim/getting_started/example_scenes.html) which give you a basic idea about the working of this version.
-2. Cairo:
-    - [Getting Started Animating with manim and Python 3.7](https://talkingphysics.wordpress.com/2019/01/08/getting-started-animating-with-manim-and-python-3-7/) by Todd Zimmerman.
-    - Theorem of Beethoven put together a great number of video tutorials.
-      Check out the [YouTube channel](https://www.youtube.com/c/TheoremofBeethoven) and [GitHub repo](https://github.com/Elteoremadebeethoven/AnimationsWithManim)
-3. ManimCommunity version: Check out the [tutorials](https://docs.manim.community/en/stable/tutorials/quickstart.html) on their [website](https://www.manim.community/)
+The library ManimGL itself is open source and under MIT License. But, the codes in this repository are for references only, and only to be used to generate the videos of [Varniex](https://youtube.com/@Varniex) YouTube Channel.
 
 ---
-# Support
+
+## Support
+
+Writing and animating (and coding) ideas are tough. How to present them in a simpler way possible consumes energy and time.
+
+If you liked my videos, you can share them to someone you think these videos might be useful. You can also subscribe to my YouTube Channel [Varniex](https://www.youtube.com/@Varniex), so that next time I upload a new video, you'll get notified. It is free to you, but it helps me a lot. Well, you can also:
+
 <a href="https://www.buymeacoffee.com/Varniex"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a book&emoji=📖&slug=Varniex&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
 
 ---
 
-**Note**: The library Manim is open source and licensed under MIT license. The codes in this repository are only to be used by the owner of this repository.
-
-Copyright &copy; 2022 Dishant Varshney
+Copyright &copy; 2023 Varniex
