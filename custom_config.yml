@@ -3,4 +3,4 @@ directories:
   temporary_storage: "temp"
 
 style:
-  background_color: "#0b0f18"
+  background_color: "#000000"
