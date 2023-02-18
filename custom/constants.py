@@ -1,15 +1,50 @@
-from __future__ import annotations
-
+import numpy as np
 from manimlib.constants import *
-from typing import TYPE_CHECKING
-
-if TYPE_CHECKING:
-    from typing import List
-    from manimlib.typing import ManimColor
 
 # Colors
-NAVY_BLUE: ManimColor = "#0066CC"
-DARK_BLUE: ManimColor = "#2A9DF4"
-VIOLET: ManimColor = "#EE82EE"
-INDIGO: ManimColor = "#4B0082"
-VIBGYOR: List[ManimColor] = [VIOLET, INDIGO, BLUE, GREEN, YELLOW, ORANGE, RED]
+NAVY_BLUE = "#0066CC"
+DARK_BLUE = "#2A9DF4"
+VIOLET = "#EE82EE"
+INDIGO = "#4B0082"
+VIBGYOR = [VIOLET, INDIGO, BLUE, GREEN, YELLOW, ORANGE, RED]
+
+# Numpy Shorthand
+array = np.array
+asarray = np.asarray
+arange = np.arange
+linspace = np.linspace
+
+# Commonly used Math functions
+sqrt = np.sqrt
+exp = np.exp
+log = np.log
+log10 = np.log10
+log2 = np.log2
+
+# Numpy Random Distributions
+rand = np.random.rand
+randn = np.random.randn
+uniform = np.random.uniform
+randint = np.random.randint
+shuffle = np.random.shuffle
+
+# Trigonometric functions
+sin = np.sin
+cos = np.cos
+tan = np.tan
+
+# Inverse Trigonometric functions
+asin = np.arcsin
+acos = np.arccos
+atan = np.arctan
+atan2 = np.arctan2
+
+# Hyperbolic Trigonometric functions
+sinh = np.sinh
+cosh = np.cosh
+tanh = np.tanh
+
+# Inverse Hyperbolic Trigonometric functions
+asinh = np.arcsinh
+acosh = np.arccosh
+atanh = np.arctanh
