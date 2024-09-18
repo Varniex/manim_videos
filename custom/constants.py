@@ -1,6 +1,30 @@
 import numpy as np
 from manimlib.constants import *
 
+# Basic Shader Templates
+VERT_TEMPLATE = """#version 330
+
+in vec3 point;
+out vec3 xyz_coords;
+
+#INSERT emit_gl_Position.glsl
+
+void main() {
+    xyz_coords = point;
+    emit_gl_Position(point);
+}
+"""
+
+FRAG_TEMPLATE = """#version 330
+
+in vec3 xyz_coords;
+out vec4 frag_color;
+
+void main() {
+    frag_color = vec4(0.0, 0.0, 1.0, 0.5);
+}
+"""
+
 # Colors
 NAVY_BLUE = "#0066CC"
 DARK_BLUE = "#2A9DF4"

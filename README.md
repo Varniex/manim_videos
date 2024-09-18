@@ -26,4 +26,4 @@ If you liked my videos, you can share them to someone you think these videos mig
 
 ---
 
-Copyright &copy; 2023 Varniex
+Copyright &copy; 2024 Varniex
