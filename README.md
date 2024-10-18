@@ -1,6 +1,6 @@
 This repository contains the codes to generate the videos of my YouTube channel [Varniex](https://youtube.com/@Varniex)
 
-The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue1brown.com/)) library [ManimGL](https://github.com/3b1b/manim)
+The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue1brown.com/)) library [ManimGL](https://github.com/3b1b/manim) `v 1.7.0`
 
 > **Note**: There are actually three versions of Manim:
 >

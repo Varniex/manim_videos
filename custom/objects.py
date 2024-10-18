@@ -38,14 +38,14 @@ class ShaderMobject(Mobject):
     def __init__(
         self,
         shader_folder: str,
-        shader_dtype: list = [("point", np.float32, (3,))],
+        data_dtype: np.dtype = [("point", np.float32, (3,))],
         height: float = FRAME_HEIGHT,
         aspect_ratio: float = 16 / 9,
         **kwargs,
     ):
         self.aspect_ratio = aspect_ratio
         self.shader_folder = shader_folder
-        self.shader_dtype = shader_dtype
+        self.data_dtype = data_dtype
 
         super().__init__(**kwargs)
         self.set_height(height, stretch=True)
