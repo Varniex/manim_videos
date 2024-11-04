@@ -12,7 +12,10 @@ The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue
 
 ### License
 
-The library ManimGL itself is open source and under MIT License. But, the codes in this repository are for references only, and only to be used to generate the videos of [Varniex](https://youtube.com/@Varniex) YouTube Channel.
+The library ManimGL itself is open source and under MIT License.
+
+But, the contents of this repository are for references only which are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+](https://creativecommons.org/licenses/by-nc-sa/4.0/), and only to be used to generate the videos for [Varniex](https://youtube.com/@Varniex) YouTube Channel.
 
 ---
 
