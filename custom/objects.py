@@ -64,8 +64,6 @@ class ShaderMobject(Mobject):
         This is used to reload the shaders files
         (frag.glsl, vert.glsl, geom.glsl) in the embed mode.
         """
-        if not self._shaders_initialized:
-            raise ValueError("Shader hasn't initialised")
 
         for shader_type in ["fragment", "vertex", "geometry"]:
             file_name = f"{shader_type[:4]}.glsl"
