@@ -10,12 +10,11 @@ The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue
 >
 > _All of these versions are very different from each other. Please follow the guidelines of the respective version of Manim for its installation and tutorials._
 
-### License
+## License
 
 The library ManimGL itself is open source and under MIT License.
 
-But, the contents of this repository are for references only which are licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
-](https://creativecommons.org/licenses/by-nc-sa/4.0/), and only to be used to generate the videos for [Varniex](https://youtube.com/@Varniex) YouTube Channel.
+But, the contents of this repository are for references only and licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/), and only to be used to generate the videos for [Varniex](https://youtube.com/@Varniex) YouTube Channel.
 
 ---
 
@@ -29,4 +28,4 @@ If you liked my videos, you can share them to someone you think these videos mig
 
 ---
 
-Copyright &copy; 2024 Varniex
+Copyright &copy; 2023 - 2024 Varniex
