@@ -16,16 +16,4 @@ The library ManimGL itself is open source and under MIT License.
 
 But, the contents of this repository are for references only and licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/), and only to be used to generate the videos for [Varniex](https://youtube.com/@Varniex) YouTube Channel.
 
----
-
-## Support
-
-Writing and animating (and coding) ideas are tough. How to present them in a simpler way possible consumes energy and time.
-
-If you liked my videos, you can share them to someone you think these videos might be useful. You can also subscribe to my YouTube Channel [Varniex](https://www.youtube.com/@Varniex), so that next time I upload a new video, you'll get notified. It is free to you, but it helps me a lot. Well, you can also:
-
-<a href="https://www.buymeacoffee.com/Varniex"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a book&emoji=📖&slug=Varniex&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
-
----
-
 Copyright &copy; 2023 - 2024 Varniex
