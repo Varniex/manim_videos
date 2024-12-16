@@ -173,11 +173,11 @@ class EarthTunnel(Scene):
         radius = 2.5
         earth = always_rotate(
             TexturedSurface(
-                Sphere(radius=radius - 0.1).rotate(-50 * DEGREES, axis=RIGHT),
+                Sphere(radius=radius - 0.1).rotate(-50 * DEG, axis=RIGHT),
                 "earth_texture",
                 "earth_night_texture",
             ),
-            80 * DEGREES,
+            80 * DEG,
             axis=UP,
         )
         self.play(GrowFromCenter(earth))
@@ -277,7 +277,7 @@ class EarthTunnel(Scene):
         circle_r.scale(1.5)
 
         arrow_r = Line(ORIGIN, 1 * UR).add_tip(width=0.2, length=0.25)
-        r_txt = Tex("r").rotate(45 * DEGREES)
+        r_txt = Tex("r").rotate(45 * DEG)
         r_txt.next_to(arrow_r, UL, buff=-0.45)
         d2r = Tex(r"\frac{d^2r}{dt^2}")
         d2r.next_to(equals[0], RIGHT, buff=0.25).shift(0.08 * UP)

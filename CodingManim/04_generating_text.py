@@ -12,7 +12,7 @@ class ImageSVGExample(Scene):
         self.play(FadeIn(img))
 
         img.move_to(2 * RIGHT)
-        img.rotate(45 * DEGREES)
+        img.rotate(45 * DEG)
         img.scale(0.5)
 
 

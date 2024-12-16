@@ -11,7 +11,7 @@ class SquareToCircle(Scene):
         # Defining the square
         sq = Square()
         sq.set_fill(TEAL, 0.5)  # giving the color and opacity
-        sq.rotate(45 * DEGREES)
+        sq.rotate(45 * DEG)
 
         # self.add(sq)
 

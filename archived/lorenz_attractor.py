@@ -45,12 +45,12 @@ class LorenzAttractor(Scene):
 
         frame = self.camera.frame
         frame.move_to(lorenz.get_center())
-        frame.set_euler_angles(theta=45 * DEGREES, phi=55 * DEGREES)
+        frame.set_euler_angles(theta=45 * DEG, phi=55 * DEG)
         frame.save_state()
 
         self.play(
             ShowCreation(lorenz),
-            frame.animate.increment_theta(-500 * DEGREES),
+            frame.animate.increment_theta(-500 * DEG),
             run_time=max_time,
             rate_func=linear
         )

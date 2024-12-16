@@ -88,7 +88,7 @@ class ParametricSurfacesScene(ThreeDScene):
     def construct(self):
         frame = self.frame
         frame.reorient(45, 60)
-        frame.always.increment_theta(-0.25 * DEGREES)
+        frame.always.increment_theta(-0.25 * DEG)
 
         sin_surface1 = ParametricSurface(
             lambda u, v: [u, v, sin(u)],
@@ -164,12 +164,12 @@ class SpaceTimeCurvature(ThreeDScene):
             dark_image_file=EARTH_NIGHT_TEXTURE
         )
         self.add(earth)
-        earth.rotate(23.5 * DEGREES, axis=UP)
+        earth.rotate(23.5 * DEG, axis=UP)
 
-        axis_line = rotate_vector(OUT, 23.5 * DEGREES, UP)
+        axis_line = rotate_vector(OUT, 23.5 * DEG, UP)
 
-        # always_rotate(earth, 2 * DEGREES, axis=axis_line)
-        earth.always.rotate(2 * DEGREES, axis=axis_line)
+        # always_rotate(earth, 2 * DEG, axis=axis_line)
+        earth.always.rotate(2 * DEG, axis=axis_line)
         self.wait(10)
 
         # Adding Sun
@@ -177,7 +177,7 @@ class SpaceTimeCurvature(ThreeDScene):
         sun = TexturedSurface(
             uv_surface=sphere.scale(sun_radius), image_file=SUN_TEXTURE, z_index=1
         )
-        always_rotate(sun, 0.5 * DEGREES)
+        always_rotate(sun, 0.5 * DEG)
         self.add(sun)
 
         # adding sun glow
@@ -196,7 +196,7 @@ class SpaceTimeCurvature(ThreeDScene):
         moon = TexturedSurface(
             uv_surface=sphere.scale(moon_radius), image_file=MOON_TEXTURE, z_index=-2
         )
-        always_rotate(moon, 5 * DEGREES)
+        always_rotate(moon, 5 * DEG)
         self.add(moon)
 
         # start orbital motion
@@ -253,7 +253,7 @@ class SpaceTimeCurvature(ThreeDScene):
         t = self.time
         orbit_position = rotate_vector(
             vector=radius * array([cos(omega * t), sin(omega * t), 0]),
-            angle=tilt * DEGREES,
+            angle=tilt * DEG,
             axis=UP,
         )
         return center + orbit_position

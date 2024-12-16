@@ -14,8 +14,8 @@ class DoublePendulumChaos(Scene):
         self.colors = it.cycle(self.colors)
         dps = VGroup(*[
             DoublePendulum(
-                theta1=PI / 2 + i / (2 * self.num) * DEGREES,
-                theta2=PI / 2 + i / (2 * self.num) * DEGREES,
+                theta1=PI / 2 + i / (2 * self.num) * DEG,
+                theta2=PI / 2 + i / (2 * self.num) * DEG,
                 bob1_config={"color": color},
                 bob2_config={"color": color},
                 show_trail=False,

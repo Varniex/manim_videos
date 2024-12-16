@@ -25,7 +25,7 @@ class PiCircle(Scene):
         colors = [DARK_BROWN, ORANGE, PURPLE, LIGHT_PINK,
                   TEAL, BLUE, BLUE_E, BLUE_B, GREEN_E, GREEN_B]
         num_of_arcs = 10  # obviously
-        offset = 5 * DEGREES  # space b/w two arcs
+        offset = 5 * DEG  # space b/w two arcs
         radius = 3.5
         arc_length = (TAU / num_of_arcs) - offset
         pi_circle = VGroup()  # did this just to group everything
@@ -96,7 +96,7 @@ class PiCircle(Scene):
         pi_n = get_n_digits_of_pi(n)
         path = VGroup(stroke_width=2, stroke_opacity=0.05)  # another combination is 1, 0.1
         paths = VGroup()  # group of bezier curves
-        len_of_arc = 360 / num_of_arcs - offset / DEGREES # length of arc in degrees
+        len_of_arc = 360 / num_of_arcs - offset / DEG # length of arc in degrees
 
         for i in range(n - 1):
             new_path = path.copy()
@@ -110,7 +110,7 @@ class PiCircle(Scene):
             # TODO: make better code
 
             p0 = curve_dots1[pi_n[i]].get_center()
-            curve_pointer[pi_n[i + 1]] = -(0.01 * (i + 1) % len_of_arc) * DEGREES
+            curve_pointer[pi_n[i + 1]] = -(0.01 * (i + 1) % len_of_arc) * DEG
             curve_dots1[pi_n[i + 1]] = curve_dots[pi_n[i + 1]].copy().rotate(
                 curve_pointer[pi_n[i + 1]],
                 about_point=ORIGIN

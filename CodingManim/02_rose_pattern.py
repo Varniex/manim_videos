@@ -22,7 +22,7 @@ class DynamismToObjects(Scene):
 
         self.play(sq.animate.move_to(ORIGIN))
         # or self.play(sq.animate.shift(2.5 * RIGHT))
-        self.play(sq.animate.rotate(45 * DEGREES))
+        self.play(sq.animate.rotate(45 * DEG))
         self.play(sq.animate.scale(2))
 
         self.play(sq.animate.become(circle))
@@ -44,11 +44,11 @@ class UpdaterExample(Scene):
     def construct(self):
         sq = Square().set_fill(TEAL, 0.5)
         sq.to_edge(LEFT, buff=1)
-        sq.rotate(45 * DEGREES)
+        sq.rotate(45 * DEG)
 
         def update_square(s):
             s.shift(0.05 * RIGHT)
-            s.rotate(-2 * DEGREES)
+            s.rotate(-2 * DEG)
 
         self.play(ShowCreation(sq))
         sq.add_updater(update_square)
@@ -60,14 +60,14 @@ class UpdaterExample2(Scene):
         sq = Square()
         sq.set_fill(TEAL, 0.5)
         sq.to_edge(LEFT, buff=1)
-        sq.rotate(45 * DEGREES)
+        sq.rotate(45 * DEG)
 
         circle = Circle().set_fill(RED, 0.5)
         circle.next_to(sq, DOWN, buff=0.5)
 
         def update_square(s):
             s.shift(0.05 * RIGHT)
-            # s.rotate(-2 * DEGREES)
+            # s.rotate(-2 * DEG)
             s.set_width(abs(2 * sin(self.time)))
 
         self.play(ShowCreation(sq), FadeIn(circle))
