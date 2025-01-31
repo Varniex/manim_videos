@@ -1,6 +1,7 @@
 directories:
-  output: "media"
-  temporary_storage: "temp"
-
-style:
+  subdirs:
+    output: "media"
+camera:
   background_color: "#000000"
+text:
+  font: "Cambria"
