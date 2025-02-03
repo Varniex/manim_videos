@@ -1,7 +1,8 @@
 This repository contains the codes to generate the videos of my YouTube channel [Varniex](https://youtube.com/@Varniex)
 
-The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue1brown.com/)) library [ManimGL](https://github.com/3b1b/manim) `v 1.7.2`.
-This repository works with [this](https://github.com/3b1b/manim/tree/7a7bf83f117034b5cdf60ae85511c1b004769651) commit of ManimGL.
+> [!Note]
+> The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue1brown.com/)) library [ManimGL](https://github.com/3b1b/manim) `v 1.7.2`.
+> This repository works with [this](https://github.com/3b1b/manim/tree/7a7bf83f117034b5cdf60ae85511c1b004769651) commit of **ManimGL**.
 
 ## Manim Versions
 There are actually three versions of Manim:
@@ -18,4 +19,4 @@ The library ManimGL itself is open source and under MIT License.
 
 But, the contents of this repository are for references only and licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/), and only to be used to generate the videos for [Varniex](https://youtube.com/@Varniex) YouTube Channel.
 
-Copyright &copy; 2023 - 2024 Varniex
+Copyright &copy; 2023 - 2025 Varniex
