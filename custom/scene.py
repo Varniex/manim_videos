@@ -1,5 +1,6 @@
 import os
 import numpy as np
+from manimlib.extract_scene import manim_config
 from custom.objects import ShaderMobject
 from manimlib.utils.file_ops import guarantee_existence
 from custom.constants import FRAG_TEMPLATE, VERT_TEMPLATE
@@ -49,7 +50,7 @@ class ShaderScene(InteractiveScene):
         self.shader_folder = self.shader_folder or self.__class__.__name__
 
         scene_folder_path = os.path.dirname(
-            os.path.abspath(self.file_writer_config["input_file_path"])
+            os.path.abspath(manim_config.run.file_name)
         )
         self.shader_folder_path = guarantee_existence(
             os.path.join(scene_folder_path, self.shader_folder)
@@ -74,12 +75,7 @@ class ShaderScene(InteractiveScene):
         self.shader = self.shader_class(shader_folder=self.shader_folder_path)
 
     def init_uniforms(self) -> None:
-        wc = self.window_config
-        cc = self.camera_config
-
-        resolution = (
-            wc["size"] if self.window else (cc["pixel_width"], cc["pixel_height"])
-        )
+        resolution = manim_config.camera.resolution
         resolution = np.array(resolution, dtype=np.int32)
 
         scene_uniforms = lambda: {

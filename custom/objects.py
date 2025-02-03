@@ -93,4 +93,6 @@ class ShaderMobject(Mobject):
                 refreshed_code = refreshed_code.replace(line, inserted_code)
 
             self.shader_wrapper.program_code[f"{shader_type}_shader"] = refreshed_code
+            self.shader_wrapper.init_vertex_objects()
             self.shader_wrapper.init_program()
+            self.shader_wrapper.refresh_id()
