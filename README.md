@@ -1,16 +1,18 @@
 This repository contains the codes to generate the videos of my YouTube channel [Varniex](https://youtube.com/@Varniex)
 
-The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue1brown.com/)) library [ManimGL](https://github.com/3b1b/manim) `v 1.7.1`
+The videos are animated using Grant Sanderson's ([3Blue1Brown](https://www.3blue1brown.com/)) library [ManimGL](https://github.com/3b1b/manim) `v 1.7.2`.
+This repository works with [this](https://github.com/3b1b/manim/tree/7a7bf83f117034b5cdf60ae85511c1b004769651) commit of ManimGL.
 
-> **Note**: There are actually three versions of Manim:
->
-> 1. Manim OpenGL ([ManimGL](https://github.com/3b1b/manim)): This version is maintained by 3Blue1Brown.
-> 2. [ManimCE](https://manim.community) ([GitHub repo](https://github.com/ManimCommunity/manim)): This version is community maintained. It is better documented for beginners especially. If you are a newbie, I'd suggest you to go with this.
-> 3. [Manim Cairo](https://github.com/3b1b/manim/tree/cairo-backend): This is **deprecated** now.
->
-> _All of these versions are very different from each other. Please follow the guidelines of the respective version of Manim for its installation and tutorials._
+## Manim Versions
+There are actually three versions of Manim:
+1. Manim OpenGL ([ManimGL](https://github.com/3b1b/manim)): This version is maintained by 3Blue1Brown.
+2. [ManimCE](https://manim.community) ([GitHub repo](https://github.com/ManimCommunity/manim)): This version is community maintained. It is better documented for beginners especially. If you are a newbie, I'd suggest you to go with this.
+3. [Manim Cairo](https://github.com/3b1b/manim/tree/cairo-backend): This is **deprecated** now.
 
-## License
+> [!Warning]
+> All of these versions are very different from each other. Please follow the guidelines of the respective version of Manim for its installation and tutorials.
+
+### License
 
 The library ManimGL itself is open source and under MIT License.
 
