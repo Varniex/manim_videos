@@ -5,3 +5,5 @@ camera:
   background_color: "#000000"
 text:
   font: "Cambria"
+tex:
+  template: "ctex"

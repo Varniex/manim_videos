@@ -13,6 +13,22 @@ There are actually three versions of Manim:
 > [!Warning]
 > All of these versions are very different from each other. Please follow the guidelines of the respective version of Manim for its installation and tutorials.
 
+### Change the $LaTeX$ font to "Cambria"
+Before rendering the video:
+
+* Change the default template in the `custom_config.yml` to `ctex` like:
+```yml
+tex:
+  template: "ctex"
+```
+
+* Change the main (and math) font to "Cambria" of `ctex` preamble in the `tex_templates.yml` file in the "manimlib" folder (ManimGL).
+```yml
+\usepackage{unicode-math}
+\setmainfont{Cambria}
+\setmathfont{Cambria Math}
+```
+
 ### License
 
 The library ManimGL itself is open source and under MIT License.
